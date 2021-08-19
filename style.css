@@ -1,0 +1,43 @@
+body
+{
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    background: rgb(0,255,106);
+background: linear-gradient(90deg, rgba(0,255,106,1) 0%, rgba(92,156,255,1) 31%, rgba(0,35,254,1) 50%, rgba(242,12,253,1) 69%, rgba(193,0,251,1) 100%);
+}
+
+#start,#number_of_objects,#status
+{
+    font-size: 18px;
+}
+.copy_right_footer
+{
+    position:fixed;
+    line-height: 3;
+    background: rgb(20,108,255);
+    background: linear-gradient(90deg, rgba(20,108,255,1) 0%, rgba(81,255,226,1) 25%, rgba(76,239,53,1) 50%, rgba(255,188,0,1) 75%, rgba(255,20,20,1) 100%);
+    color: rgb(0, 0, 0);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+canvas
+{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 130px;
+    box-shadow: 5px 5px 5px white;
+}
+
+#start:hover{
+ background: rgb(0,255,230);
+    background: linear-gradient(90deg, rgba(0,255,230,1) 0%, rgba(0,10,255,1) 100%);
+}
