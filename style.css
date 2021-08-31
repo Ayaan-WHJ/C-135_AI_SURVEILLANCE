@@ -26,15 +26,16 @@ background: linear-gradient(90deg, rgba(0,255,106,1) 0%, rgba(92,156,255,1) 31%,
     color: rgb(0, 0, 0);
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: center; 
 }
 
 canvas
 {
     border: 2px solid white;
     border-radius: 10px;
-    margin: 130px;
+    margin: 10px;
     box-shadow: 5px 5px 5px white;
+    margin-top: 100px;
 }
 
 #start:hover{
